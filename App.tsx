@@ -93,8 +93,8 @@ let App: React.FC = () => {
 
   let renderElement = (element: ElementsType): JSX.Element => {
     switch (element.type) {
-      case 'imageTile':
-        return (
+      case 'imageTile':// tried to use a div class container,row &col to split the page in 3, but i wasnt getting it
+        return (//gave a class to be styled in css
           <div className="imageTileContainer" key={element.elementKey}>
             <img
               src={element.source}
