@@ -10,7 +10,6 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
   border: 5px solid #242538;
   border-radius: 20px;
 
@@ -40,9 +39,11 @@ body {
   text-align: center;
 }
 .textTileContainer {
-  padding: 10px;
+  padding: 5px;
   background-color: #63518b;
-  margin-top: 5px;
+  margin-top: 10px;
+  border: 5px solid #242538;
+  border-radius: 20px;
 }
 
 .textTileContainer.dark {
@@ -51,6 +52,11 @@ body {
 
 .textTileContainer.mid {
   background-color: rgb(109, 70, 96);
+  display: block;
+  font-size: 15px;
+  padding-block-start: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
 }
 .buttonTileContainer {
   display: flex;
@@ -61,18 +67,17 @@ body {
 .buttonTileButton {
   padding: 8px 16px;
   background-color: lightblue;
-  border: none;
   cursor: pointer;
   transition: ease-in-out;
+  border: 5px solid #242538;
+  border-radius: 20px;
 }
 .buttonTileButton:hover {
   background-color: #63518b;
 }
-.horizontalSplitterContainer {
-  display: flex;
-  justify-content: center;
+.main {
+  justify-content: left;
   align-items: flex-start;
-  position: relative;
   margin-top: 5px;
 }
 
@@ -85,14 +90,11 @@ body {
 }
 
 .imageTileImage {
-  max-width: 400px;
-  height: 400px;
-  margin-right: 20px;
-  display: flex;
+  max-width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  float: left;
   margin-top: 20px;
-}
-.splitHeader {
-  margin: 0;
 }
 
 .exampleList {
