@@ -75,11 +75,6 @@ body {
 .buttonTileButton:hover {
   background-color: #63518b;
 }
-.main {
-  justify-content: left;
-  align-items: flex-start;
-  margin-top: 5px;
-}
 
 .verticalSplitterContainer {
   display: flex;
@@ -95,13 +90,4 @@ body {
   margin-right: 10px;
   float: left;
   margin-top: 20px;
-}
-
-.exampleList {
-  list-style-type: none;
-  padding: 0;
-}
-
-.exampleItem {
-  margin-bottom: 10px;
 }
